@@ -1,0 +1,171 @@
+/*Учебные стили */
+
+/*Ñåëåêòîð òåãîâ*/
+
+
+/*Классы*/
+.red{color: red;}
+.green{color: green;}
+.blue{color: blue;}
+.black{color: black;}
+b.purple{color: purple;}
+.fblock {background:#F9C102; border: 1px solid #DBAA02;}
+.border{width: 300px; border:10px solid #0C788B; background:#; fon}
+.border2{width: 300px; background:#efefef;
+	border-top:10px double #0C788B;
+	border-bottom:5px solid #F23100;
+	border-left: 15px dotted #0A2765;
+	border-right: 6px dashed #0C6310;
+	 }
+.block {background:#efefef; border: 1px solid #ccc; width:500px;}
+.block2 {background:#F9C102; border: 1px solid #DBAA02; width:50%;}
+.block3 {background:#F9C102; border: 1px solid #DBAA02; width:300px; padding: 20px;}
+.block4 {background:#efefef; border: 1px solid #cccccc; width:200px; margin: 30px; float: left;}
+.block5 {background:#F9C102; border: 1px solid #DBAA02; width:200px; margin: 30px; float: left;}
+.clear {clear: both;}
+
+
+/*Идентификаторы*/
+#red{color: red;}
+#green{color: green;}
+#blue{color: blue;}
+#black{color: black;}
+#orange{color: orange;}
+
+/*Селекторы атрибутов*/
+[width]{border-color:red;}
+[width="700"]{border-color:green;}
+i[title]{color:yellow ;}
+i[title="fazan"]{color:purple;}
+
+/*Êîíòåêñòíûå ñåëåêòîðû*/
+p.primer b i{color: purple;}
+p.primer b i u{color: red;}
+
+/*Äî÷åðíèå ñåëåêòîðû*/
+p.primer b > u{color: green;}
+
+
+/*Ñîñåäíèå ñåëåêòîðû*/
+
+p.primer b+i {color:blue;}
+p.primer i+u {color:yellow;}
+p.primer i+u+s {color:red;
+}
+
+/*Ìîÿ äîìàøêà*/
+p.dz1 b {color:yellow;}
+p.dz1 b + s {color:purple;}
+p.dz1 i {color:green;}
+p.dz1 i + u {color:red;}
+p.dz1 u {color:blue;}
+p.dz1 u  s {color:gray;}
+p.dz1 s > b {color:gray;} 
+
+/*Ìîÿ äîìàøêà 2*/
+p.dz2 i {color:red;}
+p.dz2 i + i{color: orange;}
+p.dz2 i + i + i{color: yellow;}
+p.dz2 i + i + i + i{color: green;}
+p.dz2 i + i + i + i + i{color: aqua;}
+p.dz2 i + i + i + i + i + i{color: blue;}
+p.dz2 i + i + i + i + i + i + i{color: purple;}
+
+/*Псевдокласс*/
+i:first-child {color: purple;}
+
+/*Тестовые стили для форм*/
+form.forms {width: 400px; margin:0 auto; 
+	background: #f5f5f5 url(images/bg.png); padding:20px;
+	border: 3px double #bbb;}
+
+form.forms label {display: block; margin:0 0 10px 0;}
+form.forms span {display: inline-block; width: 175px; cursor: pointer;
+	font-size: 15px; font-style: italic; color: #555;}
+form.forms input {width: 200px; padding: 6px 0 6px 10px; 
+	line-height: 16px; border: 1px solid #ccc; outline: none; 
+	font-size: 13px;color: #555;}
+form.forms input:focus {border: 1px solid #75bbe6; color: #1b6d9c;}
+form.forms textarea {width: 90%; height:70px; font-size: 13px;
+	color: #555; border: 1px solid #ccc; outline: none; }
+form.forms textarea:focus {border: 1px solid #75bbe6; color: #1b6d9c;}
+
+
+ form.forms input.knop2 {
+	background: #4F4F46;
+	color:#fff; 
+	width: 130px;
+	cursor: pointer;
+	padding:10px 12px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+form.forms input.knop2:hover {
+	background: blue;
+}
+
+form.contact {
+	width: 550px; margin:20px auto; 
+	background: #f5f5f5 url(images/bg.png); padding:20px;
+	border: 3px double #bbb;
+}
+
+form.contact label {display: block; margin:0 0 10px 0;}
+form.contact span {display: inline-block; width: 175px; cursor: pointer;
+	font-size: 15px; font-style: italic; color: #555;}
+form.contact input {width: 200px; padding: 6px 0 6px 10px; 
+	line-height: 16px; border: 1px solid #ccc; outline: none; 
+	font-size: 13px;color: #555;}
+form.contact input:focus {border: 1px solid #75bbe6; color: #1b6d9c;}
+form.contact textarea {width: 90%; height:70px; font-size: 13px;
+	color: #555; border: 1px solid #ccc; outline: none; }
+form.contact textarea:focus {border: 1px solid #75bbe6; color: #1b6d9c;}
+
+form.contact input.knop2 {
+	background: #4F4F46;
+	color:#fff; 
+	width: 200px;
+	cursor: pointer;
+	padding:10px 12px;
+	}
+
+form.contact input.knop2:hover {
+	background: #9EA3A6;
+}
+
+/*figure*/
+figcaption {margin: 10px 0 0 0; font-style: italic; text-align: center; color:white;}
+figure {margin: 0; background: #afda55; padding: 10px;}
+.k1 {float: left;}
+.k2, .k3 {float: right;}
+.k2 {margin:0 0 10px 0;}
+.k4
+.k5 {float: right; margin:0 0 0 5px;}
+
+/*progress-bar*/
+progress#progressbar {
+	background: #11969D;
+	border: none;
+	width: 250px;
+	height: 8px;
+}
+
+progress#progressbar::-webkit-progress-bar {background: #9eda03;}
+progress#progressbar::-webkit-progress-value {background: #11969D;}
+progress#progressbar::-moz-progress-bar {background: #11969D;}
+
+/*Тестируем псевдоэлементы*/
+p.testpe::after {content: " И точка!"}
+p.testpe::before {content: "Привет! "}
+p.testpe::first-letter {font-size: 24px; font-family: Cuprum; color: #b33004;}
+p.testpe::first-line {color: #777;}
+p.testpe::selection {color: #aaa; background:#444;}
+p.testpe::-moz-selection {color: #aaa; background:#444;}
+p.pe{background: #efefef; padding: 20px 50px; border: #ddd 1px solid; margin: 20px 0; position: relative; quotes: "\201c" "\201d";}
+p.pe::before, p.pe::after{background: #444; width: 20px; height: 20px;  display: block;
+	text-align: center; font-size: 24px; line-height: 34px; color: #ddd; font-weight: bold; 
+	position: absolute;}
+p.pe::before {content:open-quote; left: 20px; top: 20px;}
+p.pe::after {content: close-quote; right: 20px; bottom: 20px;}

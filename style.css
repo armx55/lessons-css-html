@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Cuprum);
+/*Теги*/
+body {background: url(images/fbody.png); margin: 0; padding: 0; 
+	font:16px/24px Arial, Tahoma, "Trebuchet MS", sans-serif; color:#272727;}
+a {color:#272727;}
+a:hover {color:#027272;}
+a:active {color:red;}
+h1 {color:#d8d8d8; font-size: 30px; 
+	margin: 0 0 20px 0; padding: 0; line-height: 20px;}
+h1, h2, h3 {font-family: Cuprum; font-weight: normal;}
+h2 {font-size: 24px; background: #e8e8e8; line-height: 24px; 
+	padding: 18px 20px 18px 10px; width: 100%; margin: -20px 0 0 -10px;}
+h3 {font-size: 20px; color:#555;  border-bottom: 1px dashed black;}
+video, audio {width: 100%;}
+
+
+/*Структура сайта*/
+div.header {background: url(images/fhead.png); padding: 5px 0;}
+div.mmenu {background: #e8e8e8;}
+div.main {width: 1000px; margin: 40px auto;}
+div.sidebar {float: right; width: 31%;}
+div.content {width: 65%;}
+div.footer {}
+div.mid {width: 1000px; margin: 0 auto;}
+div.day {background: #fff url(images/fhead.png) repeat-y -110px 0; padding: 20px; margin:40px 0;}
+
+/*Шапка сайтбара*/
+img.logo {float: left; margin-right: 20px;}
+.name, .disc {font-family: Cuprum; color: white; line-height: 30px;}
+.name {font-size: 30px; padding-top: 20px;}
+.disc {font-size: 18px;}
+.icons {float:right; padding-top: 33px;}
+
+/*Главное меню*/
+div.mmenu ul {margin: 0; padding: 0;}
+div.mmenu ul li {margin: 0; padding: 0; float: left; list-style: none; 
+	line-height: 50px; font-family:Cuprum; font-size: 20px;}
+div.mmenu ul li a {padding: 0 20px;}
+
+
+
+/*Сайтбар*/
+div.widj {background: #fff url(images/fhead.png) repeat-y 300px 0; 
+	padding: 0;}
+div.widj ul {margin: 0; padding: 0; list-style: none;}
+div.widj ul li {line-height: 18px; font-size: 18px; font-family: Cuprum; 
+	background:#efefef; margin:0 10px 0 0;}
+div.widj ul li a {display: block; line-height: 18px; font-size: 18px; 
+	padding: 16px 0 16px 40px; border-bottom: 1px solid #999;}
+div.widj li a:hover {background: #ddd;}
+div.widj li a.noborder {border-bottom: none;}
+
+
+/*Оформление кода*/
+.tag {color: #0D677D; font-weight: bold;}
+.style {color: #295717; font-style: italic;}
+
+
+
+/*Подвальчик*/
+.footer {background: #e8e8e8; line-height: 50px; font-family: 
+	Cuprum; font-size: 20px;}
+
+.copyright {float:left;}
+.logo-foot {float:right;}
+
+/*Дополнительные стили*/
+div.clear{clear: both;}
+.code {background: #efefef url(images/process.png) no-repeat 10px center; 
+	border: #bbb 1px solid;
+	padding:20px 20px 20px 50px; 
+	margin: 20px; font-family: monospace; font-size: 14px;
+	box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+	border-radius: 10px;}
+.codeimp {background: #FFBB00 url(images/warning.png) no-repeat 10px center; 
+	border: #bbb 1px solid; 
+	color:#992800;
+	padding:20px 20px 20px 50px; 
+	margin: 20px; font-size: 14px;
+	box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+	border-radius: 10px;}
+.codefish {background: #0073AB url(images/star_full.png) no-repeat 10px center; 
+	border: #bbb 1px solid; 
+	color: #ffffff;
+	padding:20px 20px 20px 50px; 
+	margin: 20px; font-size: 14px;
+	box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+	border-radius: 10px;}
+.codehelp {background: #008B00 url(images/help.png) no-repeat 10px center; 
+	border: #bbb 1px solid;
+	color: #ffffff; 
+	padding:20px 20px 20px 50px; 
+	margin: 20px; font-size: 14px;
+	box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+	border-radius: 10px;}
+.mistake {
+	color:red;
+	
+}

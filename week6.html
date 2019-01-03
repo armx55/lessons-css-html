@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="les.css">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/progressbaranimate.js"></script>
+	<title>Третяя неделя тренинга</title>
+	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="mid">
+				<img src="images/logo.jpg" class="logo" alt="логотип Master-Css">
+				<div class="icons">
+					<a href="https://www.facebook.com/armenak.margarian" target="_blank"> <img src="images/ifacebook.png" alt="фейсбук"></a>
+					<a href="https://plus.google.com/u/0/117687110972546352067/posts" target="_blank"> <img src="images/igplus.png" alt="гугл плюс"></a>
+					<a href="mailto:armx55@mail.ru" target="_blank"> <img src="images/imail.png" alt="эл.адрес"></a>
+				</div>
+				<div class="name"> Онлайн-дневник Арменака Арамовича (страшно смотреть)</div>
+				<div class="disc">Здесь содержатся заметки, созданные в ходе обучения на тренинге.</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="mmenu">
+			<div class="mid">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="aboutme.html">Об авторе</a></li>
+					<li><a href="#">Отзыв о тренинге</a></li>
+					<li><a href="contact.html">Связаться со мной</a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="main">
+		<div class="sidebar">
+			<div class="widj">
+				<ul>
+					<li><a href="week1.html">Неделя 1 - Ясли</a></li>
+					<li><a href="week2.html">Неделя 2 - Детский сад</a></li>
+					<li><a href="week3.html">Неделя 3 - Первый класс</a></li>
+					<li><a href="week4.html">Неделя 4 - Средняя школа</a></li>
+					<li><a href="week5.html">Неделя 5 - Старший класс</a></li>
+					<li><a href="week6.html" class="noborder">Неделя 6 - Выпукники</a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="content">
+				<article>
+					<header class="header">
+						<h1>Неделя 6 - Выпускники </h1>
+					</header>
+					<section>
+						<div class="day">
+							<h2>День 1. Прогрессивные личности.</h2>
+							<p><span class="tag">&lt;progress&gt;</span> - создает прогресс-бар который мы можем анимировать через JavaScript</p>
+							<p>Загрузка мозга:
+							<progress max="1000" value="0" id="progressbar">Загрузка мозга</progress>
+							</p>
+							<p><span class="tag">&lt;meter&gt;</span> - он отображает цивровые значения в баре и в зависимости от значения, окрашивает строку в определенный цвет</p>
+							<p>Нервное состояние:</p>
+							<p><meter value="20" min="0" max="100" low="33" optimum="14" high="77">хорошее</meter> - хорошее </p>
+							<p><meter value="54" min="0" max="100" low="33" optimum="14" high="77">волнуется</meter> - волнуется </p>
+							<p><meter value="80" min="0" max="100" low="33" optimum="14" high="77">может ударить</meter> - может ударить </p>
+							<div class="codeimp">
+								<p>Если браузер не понимает теги <span class="tag">&lt;progress&gt;</span> и <span class="tag">&lt;meter&gt;</span> вместо рисонков он отображает текст, который находится в них.</p>
+							</div>	
+							<p><span class="tag">&lt;details&gt;</span> - создает спойлер. </p>
+							<p><span class="tag">&lt;summary&gt;</span> - создает название для спойлера. </p>
+								<details>
+									<summary>Кликни</summary>
+									Поздравляю вы легко поддаетесь гимпозу.
+								</details>
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 2. Псевдоэлементы</h2>
+							<p>Это такая фиговина, которая позволяет использовать какие-то новые элементы, не добовляя тегов в HTML код.</p>
+							<p><span class="style">::after</span>- добавляет псевдоэлемент в конце тега.</p>
+							<p><span class="style">::before</span>- добавляет псевдоэлемент в начале тега.</p>
+							<div class="codeimp">
+							<p>Псевдоэлементы <span class="style">::after</span> и <span class="style">::before</span> работают при наличии свойства <span class="style"> content</span></p></div>
+							<div class="codefish">
+								Когда не ненужен текст для псевдоэлементов вы можете в контенте указать пустой символ или спецсимвол пробела.
+							</div>
+							<p><span class="style">::first-letter</span> - задает стили для первого символа.</p>
+							<p><span class="style">::first-line</span> - задает стили для первого строки.</p>
+							<div class="codeimp">
+								<p>Лучше использовать новые псевдоэлементы. Так как они работают во всех браузерах. А старые нет.</p>
+							</div>	
+							<p><span class="style">::selection</span> - пзволяет задавать стили к выделенному тексту.</p>
+							<p class="testpe">Вот такая я - псевдоэлементочка. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, est!</p>
+							<p class="pe">Тестовая цитата - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate deleniti ratione in. Expedita nemo, quisquam fuga adipisci omnis ad mollitia, libero culpa nostrum est quia eos! </p>  					
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 3.</h2>
+							
+						</div>
+					</section>
+					<section>
+						<div class="day">
+						<h2>День 4.</h2>
+									
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 5.</h2>
+							
+						</div>							
+					</section>
+				</article>
+			</div> 		
+	</div>
+		<footer>
+			<div class="footer"><div class="mid"><div class="logo-foot"> <img src="images/logo-foot.png"  alt="Foto_footer"></div> <p>2016 &#169; создано по тренингу "Верстаем на 5+" 2.0</p> </div></div>
+		</footer>
+</body>
+</html>

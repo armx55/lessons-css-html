@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="les.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Третяя неделя тренинга</title>
+	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="mid">
+				<img src="images/logo.jpg" class="logo" alt="логотип Master-Css">
+				<div class="icons">
+					<a href="https://www.facebook.com/armenak.margarian" target="_blank"> <img src="images/ifacebook.png" alt="фейсбук"></a>
+					<a href="https://plus.google.com/u/0/117687110972546352067/posts" target="_blank"> <img src="images/igplus.png" alt="гугл плюс"></a>
+					<a href="mailto:armx55@mail.ru" target="_blank"> <img src="images/imail.png" alt="эл.адрес"></a>
+				</div>
+				<div class="name"> Онлайн-дневник Арменака Арамовича (страшно смотреть)</div>
+				<div class="disc">Здесь содержатся заметки, созданные в ходе обучения на тренинге.</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="mmenu">
+			<div class="mid">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="aboutme.html">Об авторе</a></li>
+					<li><a href="#">Отзыв о тренинге</a></li>
+					<li><a href="contact.html">Связаться со мной</a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="main">
+		<div class="sidebar">
+			<div class="widj">
+				<ul>
+					<li><a href="week1.html">Неделя 1 - Ясли</a></li>
+					<li><a href="week2.html">Неделя 2 - Детский сад</a></li>
+					<li><a href="week3.html">Неделя 3 - Первый класс</a></li>
+					<li><a href="week4.html">Неделя 4 - Средняя школа</a></li>
+					<li><a href="week5.html">Неделя 5 - Старший класс</a></li>
+					<li><a href="week6.html" class="noborder">Неделя 6 - Выпукники</a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="content">
+				<article>
+					<header class="header">
+						<h1>Неделя 5 - Старший класс </h1>
+					</header>
+					<section>
+						<div class="day">
+							<h2>День 1. Атрибуты тега input</h2>
+							<p>При помощи дополнительнх атриботов</p>
+							<h3></h3>
+							<ul>
+								<li><i>required</i> - делает поле обязательным для заполнения</li>
+								<li><i>placeholder</i> - текст в поле который изчезает при фокусе </li>
+								<li><i>autocomplete</i> - автозаполнение поля</li>
+								<li><i>pattern</i> - задает формат ввода данных для поля.</li>
+								<li><i>min</i> - задает минимальное значение</li>
+								<li><i>max</i> - задает максимальное значение</li>
+								<li><i>multiple</i> - разрешает указать несколько почтовых адресов (через запятую) или файлов для загрузки</li>
+								<li><i>step</i> - задет шаг и актуален для полей числовых и ползунка</li>
+								<li><i>autofocus</i> - задает автоматический фокус для указанного поля</li>
+								<li><i>form</i> - привязывает поле к определенной форме </li>
+								<li><i>list</i> - используется для привязки к тегу <span class="tag">&lt;datalist&gt;</span> чтобы указать на список вариантов</li>
+							</ul>
+							<h3>Пример формы</h3>
+							<p>Эта таже самая форма, которая использовалась в 5 дне недели 4. Но она дополнительно имеет настройки для своих полей</p>
+							<form id="test">
+								<p><b>Фрома для заказа киллера</b></p>
+								<span>*Укажите имя:</span>
+								<input type="text" name="name" placeholder="укажите свое имя" required><br>
+								<span>*Укажите почту:</span>
+								<input type="email" name="e-mail" placeholder="укажите свой е-mail" required multiple><br>
+								<span>Выберите дату:</span>
+								<input type="date" name="date" placeholder="Укажите дату"><br>
+								<span>Сколько вам лет:</span>
+								<input type="number" name="number" min="2" max="250" placeholder="Ваш возраст" step="2"><br>
+								<input type="range" min="18" max="250" name="range" step="100"><br>
+								<span>Выберите цвет:</span>
+								<input type="color" name="color" placeholder="Ваш любимый цвет"><br>
+								<span>Вaш контакт:</span>
+								<input type="url" name="url" placeholder="как связатся с вами"><br>
+								<span>Вaш телефон:</span>
+								<input type="tel" name="tel" pattern="[0-9]{5}-[0-9]{7}" placeholder="1111-1111111"><br>
+								<span>Поиск:</span>
+								<input type="search" name="search" placeholder="Поиск"><br>
+								<input type="submit" name="knop" value="Застрелиться">
+							</form>	
+							<p><b>Заключение:</b></p>
+							<p> После всего этого я говорю сам себе вот бы все это не забыть. Ну конечно min, max или autofocus или там еще step ну трудно вспомнить, но placeholder или pattern даже не знаю. В любом случаи урок очень полезный спасибо нашему учителю.</p>						
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 2. Человекоформа </h2>
+							<p><span class="tag">&lt;label&gt;</span> - этот тег связывает текст и поле формы. То есть, при клике на тексте, активируется поле.</p>
+							<p>Связыватся можно двумя способами. Перый - разместить все внутри тега mytag <span class="tag">&lt;label&gt;</span>. Второй при помощи специального атрибута и идентификатора.</p>
+							<p><span class="tag">&lt;select&gt;</span> - задает список в котором можно выбрать определенные значения. Значения толи (пункты списка) задаются при помощи тега <span class="tag">&lt;option&gt;</span></p>
+							<p><span class="tag">&lt;optgroup&gt;</span> - объединяет пункты списков в отдельные группы </p>
+							<p><span class="tag">&lt;output&gt;</span> - через этот тег можно вывести результат поля формы или его дополнительно обработать при выводе.</p>
+							<p><span class="tag">&lt;datalist&gt;</span> - создает список вариантов для заполнения поля. Активируется данный список при фокусе на поле (двойной щелчок) либо про вводе информации. </p>
+							<p><span class="tag">&lt;textarea&gt;</span> - поле для ввода большого текста. Текст виден в несколько строк</p>
+							<h3>Пример формы:</h3>
+							<form action="">
+								<label>
+									Введите ваше имя:
+									<input type="text" name="name" placeholder="укажите свое имя" required>
+									<datalist id="names">
+										<option value="Антон"></option>
+										<option value="Андрей"></option>
+										<option value="Семен"></option>
+										<option value="Сергей">Серж</option>
+										<option value="Жора"></option>
+										<option value="Рома"></option>
+										<option value="Коля"></option>
+										<option value="Вася">Васек</option>
+										<option value="Петя"></option>
+										<option value="Саня">Санек</option>
+									</datalist>
+								</label><br>
+								<label for="mail">Укажите ваш email:</label>
+									<input id="mail" type="email" name="e-mail" placeholder="укажите свой е-mail" required><br>
+								<label>
+									Укажите тему письма:
+									<select name="tema">
+										<optgroup label="Вопросы по продуктам">
+											<option value="support">Поддержка автора</option>
+											<option value="sell"
+											>Покупка тренинга</option>
+											<option value="oplata">Способы оплаты</option>
+										</optgroup>
+										<optgroup label="Вопросы по сайту">
+										<option value="statia">Вопрос по статье</option>
+										<option value="other">Другое</option>	</optgroup>
+									</select>
+								</label><br>
+								<label oninput="rage.value=age.value;raged.value=age.value*365">
+									Укажите возраст:
+									<input type="range" min="18" max="250" name="age" step="1" value="18">
+									<br>
+									Вам	<output name="rage">18</output> лет или
+									<output name="raged">6570</output> дней.
+								</label><br>
+								<label>
+									Введите сообщение:<br>
+									<textarea wrap="hard" name="comments" placeholder="Введите свой комментарий"></textarea>
+								</label>
+								<div class="codeimp">
+									<p>При значении атрибута wrap равном hard - обязательно должен быть указан атрибут cols.</p>
+								</div>
+							</form>	
+							<p><b>Заключение:</b></p>
+							<p> Все понятно и интересно. Интересно что будет дальше.</p>				
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 3. Солидол :)</h2>
+							<h3>Наша солидная формочка!</h3>
+							<form action="#" class="forms">
+								<h3>Форма обратной связи</h3>
+								<label>
+									<span>Введите ваше имя:</span>
+									<input type="text" name="imya" placeholder="введите ваше имя" required>
+								</label>
+								<label>
+									<span>Введите ваш mail:</span>
+									<input type="email" name="yaschik" placeholder="укажите свой е-mail" required>
+								</label>
+								<label>
+									<span>Ваш номер телефона:</span>
+									<input type="tel" name="tell" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="111-11-111-11-11">
+								</label>
+								<label>
+									<span>Напишите тему:</span>
+									<input type="text" name="tema" placeholder="введите тему" required>
+								</label>
+								<label>
+									<span>Ваше сообщение:</span>
+									<textarea name="moytext" placeholder="оставьте сообщение" required></textarea>
+								</label>
+								<label style="text-align: right;">
+									<input type="submit" name="oki" value="отправить" class="knop2">
+								</label>			
+								</form>
+									<p><b>Заключение:</b></p>
+									<p> Все в принципе понятно, но с формами надо тренироваться. Еще не понял как прикрепить php скрипт. Но буду старатся. Урок довольно сложный и я это понял когда делал домашку. Спасибо Сергей. </p>	
+						</div>
+					</section>
+					<section>
+						<div class="day">
+						<h2>День 4. Отправка писем</h2>
+						<p>Сегодня мы нечего не посали в совой дневник. Однако мы работали со скриптом отправки сообщений и настраивали форму обратной связи.</p>
+						<p>Она находится по адресу <a href="contact.html">Отправить письмо</a></p>
+						<p><b>Заключение:</b></p>
+						<p>Все получилось но пока не смог протестировать. Надо найти какой то сервер для тестировки. Спасибо за урок.  </p>			
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 5. Семантические элементы HTML5.</h2>
+							<p><span class="tag">&lt;main&gt;</span> - внем должно содержаться главный контент страницы.</p>
+							<div class="codeimp">
+								<p>1. Этот тег должен быть уникальным и встречаться один раз на странице </p>
+								<p>2. Он не должен быть внутри других структурных тегов</p>
+							</div>
+							<p>Если современные браузеры не будут понимать как отображать данный тег, пропишите ему следующие стили:</p>
+							<div class="code">
+								main {display:block;}
+							</div>
+							<p><span class="tag">&lt;mark&gt;</span> - создает на странице выделенный текст. В некоторых браузерах он выделяется по умолчанию желтым.</p>
+							<p>Это <mark> выделенный текст.</mark> Используйте его для важных заметок.</p>
+							<p><span class="tag">&lt;time&gt;</span> - в нем указываем дату или время или то и другое. </p>
+							<p><b>Атрибуты:</b></p>
+							<ul>
+								<li><i>datetime</i> - дата и время в тексте.</li>
+								<li><i>pubdate</i> - указывает дату публикации.</li>
+							</ul>
+							<p>
+								<time datetime="1980.01.11">1980.01.11</time> Мой день, а может и не мой
+							</p>
+							<p><span class="tag">&lt;figure&gt;</span> - в нем мы можем группировать какие-либо элементы сайта</p>
+							<p><span class="tag">&lt;figcaption&gt;</span> - в нем размещаеться элементы группированых элементов сайта.</p>
+							<div class="codeimp">
+								<p>Этот тег должен быть внутри тега <span class="tag">&lt;figure&gt;</span> И он должен быть либо самым первым либо самым последним</p>
+							</div>
+							<figure>
+								<img src="images/k1.jpg" class="k1" alt="тест">
+								<img src="images/k2.jpg" class="k2" alt="тест">
+								<img src="images/k3.jpg" class="k3" alt="тест">
+								<div class="clear"></div>
+								<figcaption>Это описание к нашим картинкам.</figcaption>
+							</figure>
+							<p><b>Заключение:</b></p>
+						<p>Все понятно с html 5, но не очень ястно применения тега main, но я не очень пережеваю по этому поводу. Спасибо за урок.</p>	
+						</div>							
+					</section>
+				</article>
+			</div> 
+						
+	</div>
+		<footer>
+			<div class="footer"><div class="mid"><div class="logo-foot"> <img src="images/logo-foot.png"  alt="Foto_footer"></div> <p>2016 &#169; создано по тренингу "Верстаем на 5+" 2.0</p> </div></div>
+		</footer>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="les.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Третяя неделя тренинга</title>
+	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="mid">
+				<img src="images/logo.jpg" class="logo" alt="логотип Master-Css">
+				<div class="icons">
+					<a href="https://www.facebook.com/armenak.margarian" target="_blank"> <img src="images/ifacebook.png" alt="фейсбук"></a>
+					<a href="https://plus.google.com/u/0/117687110972546352067/posts" target="_blank"> <img src="images/igplus.png" alt="гугл плюс"></a>
+					<a href="mailto:armx55@mail.ru" target="_blank"> <img src="images/imail.png" alt="эл.адрес"></a>
+				</div>
+				<div class="name"> Онлайн-дневник Арменака Арамовича (страшно смотреть)</div>
+				<div class="disc">Здесь содержатся заметки, созданные в ходе обучения на тренинге.</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="mmenu">
+			<div class="mid">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="aboutme.html">Об авторе</a></li>
+					<li><a href="#">Отзыв о тренинге</a></li>
+					<li><a href="contact.html">Связаться со мной</a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="main">
+		<div class="sidebar">
+			<div class="widj">
+				<ul>
+					<li><a href="week1.html">Неделя 1 - Ясли</a></li>
+					<li><a href="week2.html">Неделя 2 - Детский сад</a></li>
+					<li><a href="week3.html">Неделя 3 - Первый класс</a></li>
+					<li><a href="week4.html">Неделя 4 - Средняя школа</a></li>
+					<li><a href="week5.html">Неделя 5 - Старший класс</a></li>
+					<li><a href="week6.html" class="noborder">Неделя 6 - Выпукники</a></li>
+				</ul>
+			</div>
+			</div>
+			<div class="content">
+				<article>
+					<header class="header">
+						<h1>Неделя 4 - Средняя школа</h1>
+					</header>
+					<section>
+						<div class="day">
+							<h2>День 1. Хелперы.</h2>
+							<p>Блок с кодом:</p>
+							<div class="code">
+							&lt;dl&gt;<br>						
+								&nbsp;&nbsp;&nbsp;&lt;dt&gt;Чекушка&lt;/dt&gt;<br>
+								&nbsp;&nbsp;&nbsp;&lt;dd&gt;Используется многими продвинутыми товариСЧами для быстрого  утоления жажды (спрайт - отдыхает).&lt;/dd&gt;<br>
+								&nbsp;&nbsp;&nbsp;&lt;dt&gt;Флян &lt;/dt&gt;<br>
+								&nbsp;&nbsp;&nbsp;&lt;dd&gt;Используется теми же товариСЧами если чекушка не  спасла от жажды.&lt;/dd&gt;<br>
+								&nbsp;&nbsp;&nbsp;&lt;dt&gt; Банка &lt;/dt&gt;<br>
+								&nbsp;&nbsp;&nbsp;&lt;dd&gt;Используется в крайнем случае, при затяжных праздниках.&lt;/dd&gt;<br>
+							&lt;/dl&gt;
+							</div>
+							<p>Пример блока Важно:</p>
+							<div class="codeimp">
+								<p>Никогда не размешайте в тегах абзаца другие абзацы. Так как у вас будет ошибка валидации кода.</p>
+								<p>Да и если подумать логически может быть абзац в абзаце?</p>
+							</div>
+							<p>Пример блока Фишка:</p>
+							<div class="codefish">
+								<p>Если раньше в тег ссылки можно было добавлять только 1 другой, то сейчас вы можете добовлять сразу несколько.</p>
+								<p>Не беспокойтесь, ошибок валидации не будет!</p>	
+							</div>
+							<p>Пример блока Вопрос:</p>
+							<div class="codehelp">
+								<p>Привет Серега, у меня вопрос:</p>
+								<p>Подскажи пожалуйста, .....</p>
+							</div>
+							<p><b>Заключение:</b></p>
+							<p> С хелперами все понятно. Освоил много нового и 	главное потренировался. Спасибо за урок. Едем дальше.</p>
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 2. Музыкальный проигрыватель</h2>
+							<h3>Музыкальный плеер на сайте</h3>
+							<p>тег<span class="tag">&lt;audio&gt;</span> позволяет проигрывать музыкальные композиции на сайте. Путь к странице можно задать двумя способами. Через тег <span class="tag">&lt;source&gt;</span>, либо через атрибут src.</p>
+							<div class="code">
+								&lt;audio src="путь к картинке"&gt; &lt;/audio&gt;
+								&lt;audio&gt; &lt;sourcesrc="путь к картинке"&gt;&lt;/audio&gt;
+							</div>
+							<audio preload="metadata" controls loop>
+							<source src="media/clip.mp3" type="audio/mpeg">
+							<source src="media/clip.ogg" type="audio/ogg">
+							<p class="mistake">К сожалению ваш браузер устарел и не поддерживает технологии html5 и CSS3. Вы не сможете послушать аудио, но можете скачать его на компютер <a href="media/clip.mp4">Скачать аудио</a></p></audio>
+							<p><b>Атрибуты музыкального проигрывателя:</b></p>
+							<p><b>control </b> - указывает, что необходимо отоброжать элементы контроля над плеером.</p>
+							<p><b>autoplay</b> - задает автоматическое воспроизведение файла. </p>
+							<p><b>loop</b> - зацикливает воспроизведение файла. </p>
+							<p><b>preload</b> - указывает браузеру, как надо подгружать мультимедиа на странице. </p>
+							<ul>
+								<li><i>none</i> не загужать файл</li>
+								<li><i>auto</i>стоит по умолчанию, файлы загружаются вместе со страницей</li>
+								<li><i>metadata</i> - браузер подгружает только информацию о файле</li>
+							</ul>
+							<p><b>Заключение:</b></p>
+							<p> С аудио и видео все понятно надо просто иногда повторять, чтобы не забыть. </p>							
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 3. Видеопроигрыватель</h2>
+							<h3>Видеопроигрыватель на сайте</h3>
+								<p>тег<span class="tag">&lt;video&gt;</span> позволяет проигрывать видео композиции на сайте. Путь к странице можно задать двумя способами. Через тег <span class="tag">&lt;source&gt;</span>, либо через атрибут src.</p>
+							<div class="code">
+								&lt;video src="путь к картинке"&gt; &lt;/video&gt;
+								&lt;video&gt; &lt;sourcesrc="путь к картинке"&gt;&lt;/video&gt;
+							</div>
+							<video  controls preload="metadata" width="500px" poster="media/poster.jpg">
+							<source src="media/clip.mp4" media"screen">
+
+							<p class="mistake">К сожалению ваш браузер устарел и не поддерживает технологии html5 и CSS3. Вы не сможете посмотреть видео, но можете скачать его на компютер <a href="media/clip.mp4">Скачать видео</a></p></video>
+							<p>Атрибуты, которые мы рассмотрели к аудиопроигрывателю, подходят также и к видеопроигрывателю. Но у него есть еще несколько своих дополнительных атрибутов. </p>
+							<p><b>Атрибуты видеопроигрывателя </b></p>
+							<p><b>width</b> - указывает ширину для видео в пикселях или в процентах.</p>
+							<p><b>height</b> - указывает высоту для видео в пикселях или в процентах. </p>
+							<p><b>poster</b> - вставляет постер (картинку-заставку) в видео, которая отображается до воспроизведения. </p>
+							<div class="codeimp">
+								<p>Помните, что пропорции постера и видео должны соответствовать, иначе постер будет отображаться непропорционально и не красиво. Будет искажаться. </p>
+							</div>
+							<p> <span class="tag">&lt;source&gt;</span> - указывает путь к файлу который необходимо проиграть. Ниже рассмотрим атрибуты этого тега</p>
+							<ul>
+								<li><i>type</i> - указывает тип воспроизводимого файла.</li>
+								<li><i>src</i> - задает путь к файлу </li>
+								<li><i>media</i> - для какого устройства должен производится этот файл.</li>
+							</ul>
+							<p><b>Значение атрибута media</b></p>
+							<ul>
+								<li><i>all</i> - для всех устройст</li>
+								<li><i>handheld</i> - для смартфонов, телефонов и иже с ними.</li>
+								<li><i>screen</i> - для экранов монитора.</li>
+								<li><i>speech</i> - для речевых ситезаторов.</li>
+								<li><i>projection</i> - для проекторов.</li>
+								<li><i>tv</i> - для теликов.</li>
+								<li><i>tty</i> - для телетайпы.</li>
+								<li><i>print</i> - для печати.</li>
+							</ul>
+							<p><b>Заключение:</b></p>
+							<p>Видео: тут мне понравился атрибут постер.</p>	
+						</div>
+					</section>
+					<section>
+						<div class="day">
+						<h2>День 4. Формы</h2>
+						<p> формы задаются при помощи тега <span class="tag">&lt;form&gt;</span>, который является парным. Содержимое формы на 99% состоит из тегов <span class="tag">&lt;input&gt;</span> различного типа. Этот тег является одиночным. </p>
+						<div class="code">
+						&lt;form action="#" accept-charset="utf-8" method="post" name="test"&gt;<br>
+							&nbsp;&nbsp;&nbsp;&lt;&nbsp;&nbsp;&nbsp;&lt;&lt;input name="name"&gt;<br>
+							&nbsp;&nbsp;&nbsp;&lt;&nbsp;&nbsp;&nbsp;&lt;&lt;input name="mail"&gt;<br>
+							&nbsp;&nbsp;&nbsp;&lt;&nbsp;&nbsp;&nbsp;&lt;&lt;input name="text"&gt;<br>
+						&lt;/form&gt;							
+						</div>
+						<h3>Атрибуты форм:</h3>
+						<ul>
+							<li><i>action</i> - указывает на адрес программы или файла обработчика.</li>
+							<li><i>accept-charset</i> - устанавливает кодировку для отправленных данных.</li>
+							<li><i>method</i> - имеет два значения (get или post). Указывает как передавать данные.</li>
+							<li><i>name</i> - задает уникальное имя для формы.</li>
+							<li><i>enctype</i> - указывает способ кодировки отправленных данных</li>
+							<li><i>target</i> - указывает каким образом будет отображон результат выполнения формы. </li>
+							<li><i>autocomplete</i> - включает/выключает (on/off) автозаполнение форм.</li>
+							<li><i>novalidate</i> - отменяет проверку на правильность заполнения полей форм.</li>
+						</ul>
+						<div class="codeimp">
+							Помните, что имя формы и имена ее элементов должны быть уникальными. Имена задаются произвольно, они могут состоять только из латинских букв, цифр и дефисов.
+						</div>
+						<p> Почти все элементы формы задаются через тег &lt;input&gt; и без этого тега форма работать не сможет. </p>
+						<div class="codeimp">
+							У тега input обязательно должны присутствовать 2 атрибута name и type.
+						</div>
+						<h3>Пример простой формы</h3>
+						<form>
+							<input type="text" name="name" value="Ваше имя"><br>
+							<input type="text" name="e-mail" value="Ваше мыло"><br>
+							<input type="submit" name="knop" value="Застрелиться">
+						</form>
+						<p><b>Заключение:</b></p>
+							<p> Мне нравится очень уроки, потому что все объясняется предельно ясно. Спасибо Сереге. </p>	
+						
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 5. Тег input</h2>
+							<p>В HTML5 появилась множество новых полей. Будьте внимательны - некоторые новые поля еще некорректно работают в браузерах</p>
+							<h3>Новые значения атрибута type в HTML5</h3>
+							<ul>								
+								<li><i>color</i> - поле для ввода цвета</li>
+								<li><i>email</i> - указывает, что в поле должен быть введен адрес электронной почты </li>
+								<li><i>number</i> - числовое поле</li>
+								<li><i>date</i> - указывает, что в этом поле содержится дата</li>
+								<li><i>month</i> - указывает месец</li>
+								<li><i>week</i> - указывает неделю</li>
+								<li><i>datetime</i> - указывает дату и время</li>
+								<li><i>datetime-local</i> - указывает местное время и дату </li>
+								<li><i>time</i> - указывает время</li>
+								<li><i>url</i> - для ввода url</li>
+								<li><i>tel</i> - поле для телефона</li>
+								<li><i>search</i> - для поиска информации </li>
+								<li><i>range</i> - задает ползунок </li>
+							</ul>
+							<h3>Пример формы</h3>
+							<form>
+								<p><b>Фрома для заказа киллера</b></p>
+								<span>Укажите имя:</span><input type="text" name="name"><br>
+								<span>Укажите почту:</span><input type="email" name="e-mail"><br>
+								<span>Выберите дату:</span><input type="date" name="date"><br>
+								<span>Сколько вам лет:</span><input type="number" name="number"><br>
+								<input type="range" name="range"><br>
+								<span>Выберите цвет:</span><input type="color" name="color"><br>
+								<span>Вaш контакт:</span><input type="url" name="url"><br>
+								<span>Вaш телефон:</span><input type="tel" name="tel"><br>
+								<span>Поиск:</span><input type="search" name="search"><br>
+								<span></span><input type="submit" name="knop" value="Застрелиться">
+							</form>
+							<p>Будьте внимательны, так как не все типы полей поддерживаются современными браузерами. Обычно, если поле не поддерживается, оно обрабатывается браузерок как обычное текстовое поле. </p>
+							<div class="codefish">
+								Поля email, search, range, number, tel и url уже поддерживаются всеми современными браузерами. И вы можете использовать эти типы полей на своих сайтах. Не беспокоясь за работоспособность
+							</div>	
+							<p><b>Заключение:</b></p>
+							<p>Новые значения атрибута type очень полезны если буду их часто применять то никогда не забуду. Спасибо за урок Серега.</p>								
+					</section>
+				</article>
+				</div>
+						
+	</div>
+		<footer>
+			<div class="footer"><div class="mid"><div class="logo-foot"> <img src="images/logo-foot.png"  alt="Foto_footer"></div> <p>2016 &#169; создано по тренингу "Верстаем на 5+" 2.0</p> </div></div>
+		</footer>
+</body>
+</html>

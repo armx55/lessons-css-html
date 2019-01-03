@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="les.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Третяя неделя тренинга</title>
+	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="mid">
+				<img src="images/logo.jpg" class="logo" alt="логотип Master-Css">
+				<div class="icons">
+					<a href="https://www.facebook.com/armenak.margarian" target="_blank"> <img src="images/ifacebook.png" alt="фейсбук"></a>
+					<a href="https://plus.google.com/u/0/117687110972546352067/posts" target="_blank"> <img src="images/igplus.png" alt="гугл плюс"></a>
+					<a href="mailto:armx55@mail.ru" target="_blank"> <img src="images/imail.png" alt="эл.адрес"></a>
+				</div>
+				<div class="name"> Онлайн-дневник Арменака Арамовича (страшно смотреть)</div>
+				<div class="disc">Здесь содержатся заметки, созданные в ходе обучения на тренинге.</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<div class="mmenu">
+			<div class="mid">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="aboutme.html">Об авторе</a></li>
+					<li><a href="#">Отзыв о тренинге</a></li>
+					<li><a href="contact.html">Связаться со мной</a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="main">
+		<div class="sidebar">
+			<div class="widj">
+				<ul>
+					<li><a href="week1.html">Неделя 1 - Ясли</a></li>
+					<li><a href="week2.html">Неделя 2 - Детский сад</a></li>
+					<li><a href="week3.html">Неделя 3 - Первый класс</a></li>
+					<li><a href="week4.html">Неделя 4 - Средняя школа</a></li>
+					<li><a href="week5.html">Неделя 5 - Старший класс</a></li>
+					<li><a href="week6.html" class="noborder">Неделя 6 - Выпукники</a></li>
+				</ul>
+			</div>
+			</div>
+			<div class="content">
+				<article>
+					<header class="header">
+						<h1>Неделя 3 - Первый класс</h1>
+					</header>
+					<section>
+						<div class="day">
+							<h2>День 1. Структура в HTML 5</h2>
+							<h3>Теги, которые участвуют в структуре сайта.</h3>
+							<p><span class="tag">&lt;header&gt;</span> - задает &#171;шапку&#187; сайта или раздела, в которой обычно располагается заголовок. </p>
+							<p><span class="tag">&lt;nav&gt;</span> - задает навигацию по сайту. </p>
+							<p><span class="tag">&lt;article&gt;</span> - задает содержание сайта. </p>
+							<p><span class="tag">&lt;hgroup&gt;</span> - используется для группирования заголовков веб-страницы или раздела. </p>
+							<p><span class="tag">&lt;aside&gt;</span> - oпределяет блок сбоку от контента для размещения рубрик, ссылок на архив, меток и другой информации. Такой блок, как правило, называется &#171;сайдбар&#187; или &#171;боковая панель&#187;. </p>
+							<p><b>Заключение:</b></p>
+							<p>Для меня было все незнакомо и очень интересно. Интересно, что будет дальше. Спасибо за уроки.</p>
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 2. Типа верстальщики :))</h2>
+							<p>Для задания структуры дневника мы использовали 5 блоков - для шапки, главного меню, контента с сайтбаром и подвала. И еще 2 блока для того, что бы отцентировать содержимое сайта.</p>
+							<h3>Работа с фоном</h3>
+							<p> Свойство <span class="style"> background </span> - отвечает за фон элемента, к которому оно прописывается через стили. В качестве фона мы можем использовать различные цвета, градиенты или картинки. </p>
+							<p><b>Синтаксис</b></p>
+							<div class="code">
+								<p><span class="style">body {background: url(путь к картинке);}</span> - указываем картинку.</p>
+							</div>
+							<div class="code">
+								<p><span class="style">body {background: цвет;}</span> - указываем цвет.</p>
+							</div>
+							<div class="code">
+								<p><span class="style">body {background: цвет url(путь к картинке);}</span> - указываем цвет и картинку одновременно.</p>
+							</div>
+							<p><b>Заключение:</b></p>
+							<p>Интересно оформлять сайт, долго ждал этого. Стараюсь все запоминать. Уроки отличные. Спасибо Сереге. Домашку выполнил, но не знаю как? Если есть замечания, то буду только рад.</p>
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 3. Дадим по шапке!</h2>
+							<p>По умолчанию, браузер задает свои отступы и поля для элементов сайта. В том числе и для <span class="tag">&lt;body&gt;</span>. И что бы эти отступы пропали, необходимо использовать сброс или нормализацию стилей. Или прописывать все вручную. </p>
+							<p>Не знаю почему, но обычно отступы дочерних элементов вылезают за пределы родителей и становятся, как бы их отступами. Лечить можно либо провисав обтекание, либо задав родителе свойство <span class="style">родитель {padding: 1px; 0} </p>
+							<h3>Работа со шрифтами</h3>
+							<p> Свойство <span class="style"> font </span> - отвечает за указание шрифта и имеет множество вариаций. Которые по возможности мы обязательно рассмотрим</p>
+							<p><b>Синтаксис</b></p>
+							<div class="code">
+							<p><span class="style">font:16px/24px Arial, Tahoma, "Trebuchet MS", sans-serif;</span></p>
+							</div>
+							<p>Также мы можем указать шрифты которые будут загружаться из интернета</p>
+							<div class="code">
+							<p>Свойство<span class="style">font-family: Cuprum;</span> указывает только имя и семейство шрифта.</p>
+							</div>
+							<h3>Семейство шрифта</h3>
+							<p><b>sans-serif</b> шрифт без засечек или рубленые,  лучше использовать на мониторах. </p>
+							<p><b>serif</b>- шрифты с засечками, лучше использовать в книгах. </p>
+							<p><b>monospace</b> - моношырные шрифты, ширина у каждого символа одинаковая.</p>
+							<p><b>cursive</b> - курсивные шрифты.</p>
+							<p><b>fantasy</b> - декоративные шрифты.</p>
+							<div class="code">
+								<p>Свойство<span class="style">font-size: 30px;</span> задает размер шрифтов.</p>
+							</div>
+							<div class="code">
+								<p>Свойство<span class="style">line-height: 30px;</span> задает высоту строки.</p>
+							</div>
+							<p><b>Заключение:</b></p>
+							<p>Для меня все интерено и все ново. Приходится все изучать, много пробовать. Кажется все просто, но надо много пробовать, чтобы понять. Со шрифтами все понятно. Урок очень полезный. Спасибо!</p>
+						</div>
+					</section>
+					<section>
+						<div class="day">
+						<h2>День 4. Меню и списки.</h2>
+						<p>Есть специальное свойство для работы со списками - <span class="style">list-style</span>. При помощи его мы можем указать вид маркеров, способ отобразения и картинку</p>
+						<h3>Маркеры в списках:</h3>
+						<p>Для задания маркеров мы можем использовать подсвойство <span class="style">list-style-type</span> </p>
+						<p><b>Маркерованный список:</b></p>
+						<ul>
+							<li style="list-style:circle;"><b>circle</b> - маркер как круг</li>
+							<li><b>disc</b> - маркер как черная точка</li>
+							<li style="list-style:square;"><b>square</b> - маркер как квадратище</li>
+						</ul>
+						<p><b>Нумированный список:</b></p>
+						<ol>
+							<li style="list-style-type:armenian;"><b>armenian</b> -армянские цифры</li>
+							<li><b>decimal</b> - арабские числа</li>
+							
+							<li style="list-style:georgian;"><b>georgian</b> - грузинские цифры</li>
+							<li style="list-style-type:lower-roman;"><b>lower-roman</b> - римские цифры в нижнем регистре</li>
+							<li style="list-style:upper-roman;"><b>upper-roman</b> - римские цифры большие</li>
+							<li style="list-style-type:lower-latin;"><b>lower-latin</b> -  латинские буквы маленькие </li>
+							<li style="list-style:upper-latin;"><b>upper-latin</b> - латинские буквы большие</li>
+							<li style="list-style:none;"><b> none </b> - отменяет маркеры.</li>
+						</ol>
+						<p>Для задания позиции маркера мы можем использовать подсвойство <span class="style">list-style-position</span> </p>
+						<p>Для задания отдельного маркера как картинки - мы можем использовать <span class="style">list-style-image</span> </p>
+						<p><b>Примеры позицирования и маркеров-картинок</b></p>
+						<ul>
+							<li style="list-style:inside url(images/accept.png);"><b>inside</b> - это значение указывает что маркер будет использоваться внутри нашего скписка. И будет являтся частью нашего текста. </li>
+							
+							<li style="list-style-image: url(images/accept.png);"><b>outside</b> - это значение указывает что маркер будет использоваться снаружи нашего списка. И уже не будет являтся его частью.</li>
+						</ul>
+						<p><b>Заключение:</b></p>
+							<p>Урок очень интересный. Менюшу переделали ближе к настоящей  я никак не мог сам этого сделать, теперь все понятно. Маркеры в списках: да тут надо бы все запомнить а так все очень просто. Что касается армянских цифр то это не цифры а буквы. Большое спасибо за урок. </p>
+						</div>
+					</section>
+					<section>
+						<div class="day">
+							<h2>День 5. Псевдо-классы</h2>
+							<p>При помощи псевдоклассов мы можем влиять на стили при помощи дествий пользователя. Задаются через двоеточие.</p>
+							<h3>Какие они бывают</h3>
+							<p><b>hover</b> - указывает на стили во время навидения курсора мыши на элемент</p>
+							<p><b>link</b>- указывает на стили, для не посещеных ссылок.</p>
+							<p><b>visited </b> - указывает на стили для уже посещенных ссылок</p>
+							<p><b>active</b>- указывает на стили для активного элемента. Активным элементом (ссылкой) считается элемент на момент клыка мышкой. </p>
+							<div class="codeimp">
+							<p><b>Важно:</b> для того чтобы псевдокассы работали нормально, надо сначало указывать стили для visited, потом для hover, и в конце для active. </p>
+							</div>
+							<p>Псевдоклассы active и hover вы можете применить к любому элементу.</p>
+							<p><b>first-child</b> - указывает стили для первого тега в своем родителе. </p>
+							<p>
+								<i>Первый</i>
+								<i>Второй</i>
+								<i>Третий</i>
+							</p>
+							<p>
+								<b>Четвертый</b>
+								<i>Пятый</i>
+								<i>Шестой</i>
+							</p>
+							<p>
+								<i>Седьмой</i>
+								<i>Восьмой</i>
+								<i>Девятый</i>
+							</p>
+							<p><b>Заключение:</b></p>
+							<p>Про псевдоселокторы знал, но узнал очередность применения, что более важно. Спасибо что рассказали про этот секрет.</p>
+
+					</section>
+				</article>
+			</div>
+	</div>
+		<footer>
+			<div class="footer"><div class="mid"><div class="logo-foot"> <img src="images/logo-foot.png"  alt="Foto_footer"></div> <p>2016 &#169; создано по тренингу "Верстаем на 5+" 2.0</p> </div></div>
+		</footer>
+</body>
+</html>

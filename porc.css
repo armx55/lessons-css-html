@@ -1,0 +1,89 @@
+div.animate {
+	background: #ccc; border: #bbb 1px solid; 
+	padding: 5px 20px;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-animation: test 3s;
+
+}
+
+@-webkit-keyframes test {
+	from {width:200px;}
+	to {width:400px;}
+}
+
+div.animate1 {
+	background: #ccc; border: #bbb 1px solid; 
+	padding: 5px 20px;
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;
+	-webkit-animation: test1 3s;
+}
+
+@-webkit-keyframes test1 {
+	from {}
+	to {width:400px; border-radius:20px; transform:rotate(3deg);}
+}
+
+
+div.animate2 {
+	background: #ccc; border: #bbb 1px solid; 
+	padding: 5px 20px;
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;
+	-webkit-animation: test2 3s;
+}
+
+@-webkit-keyframes test2 {
+	0% {}
+	25%{width: 500px; background: blue;}
+	50% {width: 200px; background: red;}
+	100% {width:300px; border-radius:20px; transform:rotate(3deg);}
+}
+
+div.animate3 {
+	background: #ccc; border: #bbb 1px solid; 
+	padding: 5px 20px;
+	width: 200px;
+	margin: 20px auto;
+	text-align: center;
+	-webkit-animation: test3 3s;
+}
+
+@-webkit-keyframes test3 {
+	0% {}
+	25%{width: 250px; transform: rotate(3deg);}
+	50% {transform: rotate(-3deg);}
+	65% {transform: rotate(3deg);}
+	80% {width: 250px; transform: rotate(-3deg);}
+	100%{}
+}
+
+
+div.animate4 {
+	position: relative;
+	background: #aaa; 
+	border: #999 1px solid; 
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	-webkit-animation: test4 3s;
+}
+
+@-webkit-keyframes test4 {
+	0%  {left: 0;}
+	25% {left: 100%}
+	50% {left: 0;}
+	75% {left: 75%;}
+	100%{}
+}
+<div class="start">
+		<div class="animate">Անիմացիայի օրինակ 1</div>
+		<div class="animate1">Անիմացիայի օրինակ 2</div>
+		<div class="animate2">Անիմացիայի օրինակ 3</div>
+		<div class="animate3">Անիմացիայի օրինակ 4</div>
+		<div class="animate4"></div>
+	</div>
